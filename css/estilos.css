@@ -1,0 +1,80 @@
+#info {
+  padding: 3rem;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 7px 7px 20px rgb(0 0 0 / 5%);
+  text-align: center;
+  display: none;
+}
+
+.conclusion > img {
+  width: 100px;
+  padding-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cargando {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.preloader {
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #eee;
+  border-top: 10px solid #666;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 250, "GRAD" 300, "opsz" 48;
+}
+
+.material-symbols-outlined {
+  font-size: 35px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.error {
+  color: rgb(136, 0, 0);
+  margin-bottom: 0;
+}
+
+::placeholder,
+input {
+  text-align: center;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width70 {
+  width: 70%;
+}
